@@ -1,1 +1,10 @@
 language: java
+before_deploy:
+  - export TARGET=$(ls target/TestingTravisCI-*.jar)
+deploy:
+  provider: releases
+  api_key: $GTOKEN
+    secure:
+  file: "${TARGET}"
+  on:
+    tags: true
