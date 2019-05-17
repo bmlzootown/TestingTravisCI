@@ -6,11 +6,27 @@
 
     <groupId>ml.bmlzootown</groupId>
     <artifactId>TestingTravisCI</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>TestingTravisCI</name>
     <description>Just testing Travis-CI</description>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>plugin.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>plugin.yml</exclude>
+                </excludes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

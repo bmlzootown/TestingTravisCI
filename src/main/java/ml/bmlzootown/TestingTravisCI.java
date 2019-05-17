@@ -7,7 +7,7 @@ public class TestingTravisCI extends JavaPlugin {
     @Override
     public void onEnable() {
         this.getLogger().info("TestingTravisCI enabled");
-        this.getLogger().info("This SHOULD be a release...");
+        this.getLogger().info("This SHOULD be a release... ?");
     }
 
     @Override
