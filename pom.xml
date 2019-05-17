@@ -28,11 +28,6 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <repository>
-            <id>ibj-public</id>
-            <name>Ichbinjoe Public Repository</name>
-            <url>https://nexus.ibj.io/repository/maven-public/</url>
-        </repository>
     </repositories>
     <dependencies>
         <!--Spigot API-->
@@ -47,12 +42,6 @@
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.13.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.vexsoftware</groupId>
-            <artifactId>nuvotifier-universal</artifactId>
-            <version>2.5.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
