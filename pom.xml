@@ -6,7 +6,7 @@
 
     <groupId>ml.bmlzootown</groupId>
     <artifactId>TestingTravisCI</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>TestingTravisCI</name>
     <description>Just testing Travis-CI</description>
 
