@@ -4,3 +4,11 @@ version: ${project.version}
 description: ${project.description}
 main: ml.bmlzootown.TestingTravisCI
 api-version: 1.13
+commands:
+  testingtravisci:
+    description: TestingTravisCI
+    permission: testing.travisci
+permissions:
+  testing.travisci:
+    description: Testing Travis-CI
+    default: op
